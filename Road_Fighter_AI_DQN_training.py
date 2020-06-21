@@ -93,7 +93,6 @@ model.add(Dense(3))
 #comment the below line if you want to train a model
 model = load_model('Trained_models/model-v1.model')
 model.compile(loss='mse',optimizer='adam',metrics=['accuracy'])
-#model.set_weights(model1.get_weights())
 
 #print(model.summary())
 
